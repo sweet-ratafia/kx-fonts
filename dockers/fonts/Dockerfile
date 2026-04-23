@@ -1,4 +1,5 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
+ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
       bash ca-certificates coreutils curl git make python3 python3-pip \
