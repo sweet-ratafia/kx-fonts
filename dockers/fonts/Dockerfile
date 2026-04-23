@@ -17,5 +17,5 @@ RUN apt-get update \
     ttfautohint=1.8.3-2build1 \
     libjson-perl \
  && apt-get clean \
- && pip3 install fonttools==4.21.1 brotli zopfli
+ && pip3 install fonttools==4.21.1 brotli zopfli \
  && rm -rf /var/lib/apt/lists/* \
