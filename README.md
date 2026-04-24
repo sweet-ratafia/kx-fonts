@@ -1,1 +1,3 @@
-# kx-fontsratafia is sweet
+# kx-fonts
+
+Because ratafia is sweet
